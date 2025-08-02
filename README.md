@@ -19,7 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ## Screenshots
+## Tela de Login
 
-### Tela de Login
-
-![Tela de Login](screenshots/tela_login.jpg)
+<img src="screenshots/tela_login.jpg" width="400" />
