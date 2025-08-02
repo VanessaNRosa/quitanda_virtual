@@ -22,4 +22,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ### Tela de Login
 
-![Tela de Login](screenshots/tela_login.png)
+![Tela de Login](screenshots/tela_login.jpg)
