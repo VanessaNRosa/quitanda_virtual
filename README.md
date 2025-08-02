@@ -1,6 +1,7 @@
 # quitanda_virtual
 
-A new Flutter project.
+App de estudos do curso "Crie um App de Quitanda Virtual com Flutter + GetX" da Udemy.
+
 
 ## Getting Started
 
