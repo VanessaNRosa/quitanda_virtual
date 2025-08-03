@@ -22,3 +22,4 @@ samples, guidance on mobile development, and a full API reference.
 ## Tela de Login
 
 <img src="screenshots/tela_login.jpg" width="400" />
+<img src="screenshots/tela_cadastro.jpg" width="400" />

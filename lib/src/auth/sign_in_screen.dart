@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:quitanda_virtual/src/auth/components/custom_text_field.dart';
+import 'package:quitanda_virtual/src/auth/sign_up_screen.dart';
 import 'package:quitanda_virtual/src/config/custom_colors.dart';
 
 class SignInScreen extends StatelessWidget {
@@ -134,7 +135,13 @@ class SignInScreen extends StatelessWidget {
                     SizedBox(
                       height: 50,
                       child: OutlinedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(builder: (c){
+                              return SignUpScreen();
+                            })
+                          );
+                        },
                         style: OutlinedButton.styleFrom(
                           side: const BorderSide(color: Colors.green),
                           foregroundColor: Colors.green,
