@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitanda_virtual/src/config/custom_colors.dart';
-import 'package:quitanda_virtual/src/home/home_tab.dart';
+import 'package:quitanda_virtual/src/pages/home/home_tab.dart';
 
 class BaseScreen extends StatefulWidget {
    const BaseScreen({super.key});
@@ -20,7 +20,7 @@ class _BaseScreenState extends State<BaseScreen> {
         physics: const NeverScrollableScrollPhysics(),
         controller: pageController,
         children: [
-          HomeTab(),
+          const HomeTab(),
           Container(color: Colors.amber,),
           Container(color: Colors.blue,),
           Container(color: Colors.purple,),
