@@ -5,7 +5,7 @@ ItemModel apple = ItemModel(
   image: 'assets/fruits/apple.png',
   unit: "kg",
   price: 5.5,
-  description: "A melhor maçã da região.",
+  description: 'A melhor maçã da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
 );
 
 ItemModel grape = ItemModel(
@@ -14,7 +14,7 @@ ItemModel grape = ItemModel(
   price: 7.4,
   unit: 'kg',
   description:
-      'A melhor uva da região e que conta com o melhor preço de qualquer quitanda. Este item conta com vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
+      'A melhor uva da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
 );
 
 ItemModel guava = ItemModel(
@@ -23,7 +23,7 @@ ItemModel guava = ItemModel(
   price: 11.5,
   unit: 'kg',
   description:
-      'A melhor goiaba da região e que conta com o melhor preço de qualquer quitanda. Este item conta com vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
+      'A melhor goiaba da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
 );
 
 ItemModel kiwi = ItemModel(
@@ -32,7 +32,7 @@ ItemModel kiwi = ItemModel(
   price: 2.5,
   unit: 'un',
   description:
-      'O melhor kiwi da região e que conta com o melhor preço de qualquer quitanda. Este item conta com vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
+      'O melhor kiwi da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
 );
 
 ItemModel mango = ItemModel(
@@ -41,7 +41,7 @@ ItemModel mango = ItemModel(
   price: 2.5,
   unit: 'un',
   description:
-      'A melhor manga da região e que conta com o melhor preço de qualquer quitanda. Este item conta com vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
+      'A melhor manga da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
 );
 
 ItemModel papaya = ItemModel(
@@ -50,7 +50,7 @@ ItemModel papaya = ItemModel(
   price: 8,
   unit: 'kg',
   description:
-      'O melhor mamão da região e que conta com o melhor preço de qualquer quitanda. Este item conta com vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
+      'O melhor mamão da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
 );
 
 // Lista de produtos
