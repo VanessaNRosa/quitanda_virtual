@@ -23,3 +23,5 @@ samples, guidance on mobile development, and a full API reference.
 
 <img src="screenshots/tela_login.jpg" width="200" />
 <img src="screenshots/tela_cadastro.jpg" width="200" />
+<img src="screenshots/home.jpg" width="200" />
+<img src="screenshots/product_page.jpg" width="200" />
