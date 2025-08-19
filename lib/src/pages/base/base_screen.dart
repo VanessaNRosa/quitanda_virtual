@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quitanda_virtual/src/config/custom_colors.dart';
+import 'package:quitanda_virtual/src/pages/cart/cart_tab.dart';
 import 'package:quitanda_virtual/src/pages/home/home_tab.dart';
 
 class BaseScreen extends StatefulWidget {
@@ -21,7 +22,7 @@ class _BaseScreenState extends State<BaseScreen> {
         controller: pageController,
         children: [
           const HomeTab(),
-          Container(color: Colors.amber,),
+          CartTab(),
           Container(color: Colors.blue,),
           Container(color: Colors.purple,),
         ],

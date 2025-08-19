@@ -1,3 +1,4 @@
+import 'package:quitanda_virtual/src/models/cart_item_model.dart';
 import 'package:quitanda_virtual/src/models/item_model.dart';
 
 ItemModel apple = ItemModel(
@@ -5,7 +6,8 @@ ItemModel apple = ItemModel(
   image: 'assets/fruits/apple.png',
   unit: "kg",
   price: 5.5,
-  description: 'A melhor maçã da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
+  description:
+      'A melhor maçã da região e o melhor preço de qualquer quitanda. Este item tem vitaminas essenciais para o fortalecimento corporal, resultando em uma vida saudável.',
 );
 
 ItemModel grape = ItemModel(
@@ -57,3 +59,9 @@ ItemModel papaya = ItemModel(
 List<ItemModel> items = [apple, grape, guava, kiwi, mango, papaya];
 
 List<String> categories = ["Frutas", "Verduras", "Legumes", "Grãos"];
+
+List<CartItemModel> cartItems = [
+  CartItemModel(item: apple, quantity: 1),
+  CartItemModel(item: mango, quantity: 3),
+  CartItemModel(item: guava, quantity: 5),
+  ];
