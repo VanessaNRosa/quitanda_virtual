@@ -4,79 +4,20 @@ App de estudos do curso "Crie um App de Quitanda Virtual com Flutter + GetX" da 
 
 
 📚 Widgets estudados no projeto
-🖼 Estrutura e Layout
 
-Column
+🖼 Estrutura e Layout (Column, Row, Container, Padding, Align, SizedBox, Expanded, Stack, Positioned, SafeArea, Card)
 
-Row
+📑 Listas e Navegação (ListView, GridView, PageView, ListTile, BottomNavigationBar, AppBar)
 
-Container
+🎨 Texto e Estilo (Text, Text.rich / TextSpan, AnimatedTextKit)
 
-Padding
+🖊 Entrada e Interação (TextField, GestureDetector, Máscaras de formatação)
 
-Align
+🔘 Botões (ElevatedButton, OutlinedButton, IconButton)
 
-SizedBox
+🖼 Imagens e Efeitos (Image, Hero, Badge)
 
-Expanded
-
-Stack
-
-Positioned
-
-SafeArea
-
-Card
-
-📑 Listas e Navegação
-
-ListView
-
-GridView
-
-PageView
-
-ListTile
-
-BottomNavigationBar
-
-AppBar
-
-🎨 Texto e Estilo
-
-Text
-
-Text.rich / TextSpan
-
-AnimatedTextKit
-
-🖊 Entrada e Interação
-
-TextField
-
-GestureDetector
-
-Máscaras de formatação
-
-🔘 Botões
-
-ElevatedButton
-
-OutlinedButton
-
-IconButton
-
-🖼 Imagens e Efeitos
-
-Image
-
-Hero
-
-Badge
-
-📐 Utilitários
-
-MediaQuery
+📐 Utilitários (MediaQuery)
 
 
 ## Screenshots
