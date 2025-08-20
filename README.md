@@ -3,16 +3,79 @@
 App de estudos do curso "Crie um App de Quitanda Virtual com Flutter + GetX" da Udemy.
 
 
-## Widgets/Ferramentas Aprendidos/Aperfeiçoados
+📚 Widgets estudados no projeto
+🖼 Estrutura e Layout
+
+Column
+
+Row
+
+Container
+
+Padding
+
+Align
+
+SizedBox
 
 Expanded
+
 Stack
+
+Positioned
+
+SafeArea
+
+Card
+
+📑 Listas e Navegação
+
+ListView
+
+GridView
+
 PageView
-TextField
-Align
+
+ListTile
+
 BottomNavigationBar
-Text (Text.rich, TextSpan)
+
+AppBar
+
+🎨 Texto e Estilo
+
+Text
+
+Text.rich / TextSpan
+
 AnimatedTextKit
+
+🖊 Entrada e Interação
+
+TextField
+
+GestureDetector
+
+Máscaras de formatação
+
+🔘 Botões
+
+ElevatedButton
+
+OutlinedButton
+
+IconButton
+
+🖼 Imagens e Efeitos
+
+Image
+
+Hero
+
+Badge
+
+📐 Utilitários
+
 MediaQuery
 
 
