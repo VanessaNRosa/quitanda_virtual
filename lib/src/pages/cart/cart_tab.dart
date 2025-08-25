@@ -6,7 +6,7 @@ import 'package:quitanda_virtual/src/services/utils_services.dart';
 import 'package:quitanda_virtual/src/config/app_data.dart' as appData;
 
 class CartTab extends StatefulWidget {
-  CartTab({super.key});
+  const CartTab({super.key});
 
   @override
   State<CartTab> createState() => _CartTabState();
