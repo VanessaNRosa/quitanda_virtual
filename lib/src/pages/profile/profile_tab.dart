@@ -3,9 +3,14 @@ import 'package:quitanda_virtual/src/config/custom_colors.dart';
 import 'package:quitanda_virtual/src/pages/common_widgets/custom_text_field.dart';
 import 'package:quitanda_virtual/src/config/app_data.dart' as appData;
 
-class ProfileTab extends StatelessWidget {
+class ProfileTab extends StatefulWidget {
   const ProfileTab({super.key});
 
+  @override
+  State<ProfileTab> createState() => _ProfileTabState();
+}
+
+class _ProfileTabState extends State<ProfileTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +59,9 @@ class ProfileTab extends StatelessWidget {
                 ),
                 side: BorderSide(color: CustomColors.customSwatchColor),
               ),
-              onPressed: () {},
+              onPressed: () {
+                updatePassword();
+              },
               child: Text(
                 "Alterar senha",
                 style: TextStyle(
@@ -67,5 +74,70 @@ class ProfileTab extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  Future <bool?> updatePassword (){
+    return showDialog(context: context, 
+    builder: (context){
+      return Dialog(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadiusGeometry.circular(20)
+        ),
+        child: Stack(
+          children: [
+              Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    child: const Text("Atualização de senha",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold
+                    ),),
+                  ),
+                  CustomTextField(icon: 
+                  Icons.lock, 
+                  label: "Senha atual",
+                  isSecret: true,),
+                  CustomTextField(icon: 
+                  Icons.lock_outline, 
+                  label: "Nova senha",
+                  isSecret: true,),
+                  CustomTextField(icon: 
+                  Icons.lock_outline, 
+                  label: "Confirmar nova senha",
+                  isSecret: true,),
+                  SizedBox(
+                    height: 45,
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: CustomColors.customSwatchColor,
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadiusGeometry.circular(20)
+                        )
+                      ),
+                      onPressed: (){}, child: const Text("Atualizar")),
+                  )
+                ],
+              ),
+            ),
+            Positioned(
+              top: 5,
+              right: 5,
+              child: IconButton(
+                onPressed: (){
+                  Navigator.of(context).pop();
+                }, 
+                icon: const Icon(Icons.close)))
+          ],
+        ),
+      );
+    });
   }
 }

@@ -3,7 +3,7 @@
 App de estudos do curso "Crie um App de Quitanda Virtual com Flutter + GetX" da Udemy.
 
 
-📚 Widgets estudados no projeto
+📚 Widgets estudados no projeto:
 
 🖼 Estrutura e Layout (Column, Row, Container, Padding, Align, SizedBox, Expanded, Stack, Positioned, SafeArea, Card)
 
