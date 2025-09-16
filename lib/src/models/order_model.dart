@@ -1,5 +1,3 @@
-import 'dart:nativewrappers/_internal/vm/lib/ffi_native_type_patch.dart';
-
 import 'package:quitanda_virtual/src/models/cart_item_model.dart';
 
 class OrderModel {
